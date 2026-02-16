@@ -102,7 +102,7 @@ public class Ejer2 extends javax.swing.JFrame {
     private void btnProcesarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProcesarActionPerformed
         double nota= Double.parseDouble(txtNota.getText());
         double porcentaje= Double.parseDouble(txtAsistencias.getText());
-        
+
         if(nota>=11 && porcentaje>=70){
             txtA.setText("Aprobado"+"\n");
             if(nota>=17 && porcentaje==100){
