@@ -89,6 +89,21 @@ public class EjercicioBucles extends javax.swing.JFrame {
        //Suma condicional de múltiplos:
        //Pide un número N y suma solo los múltiplos de 3 o 5 hasta N. Muestra la suma y los
        //múltiplos encontrados.
+       int n= Integer.parseInt(txtNumero.getText());
+       int indice=0;
+       int suma=0;
+       int [] numeros= new int[100];
+       for(int i=1; i<=n ; i++){
+           if( i%3==0 || i%5==0){
+               numeros[indice]= i;
+               indice++;
+               suma+=i;
+           }
+       }
+       
+       for (int i=0; i<indice; i++){
+           
+       }
        
        
     }//GEN-LAST:event_btnProcesarActionPerformed
